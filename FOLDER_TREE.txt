@@ -1,0 +1,24 @@
+lightweight-chat-app/
+  package.json
+  backend/
+    package.json
+    src/
+      server.js
+      index.js
+      schema/
+        chatSchema.js
+      resolvers/
+        chatResolvers.js
+      realtime/
+        socketServer.js
+  frontend/
+    package.json
+    webpack.config.js
+    public/
+      index.html
+    src/
+      index.jsx
+      App.jsx
+      components/
+        index.js
+        ChatRoomView.jsx
