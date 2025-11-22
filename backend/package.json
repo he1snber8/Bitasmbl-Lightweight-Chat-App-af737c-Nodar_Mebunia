@@ -1,0 +1,14 @@
+{
+  "name": "lightweight-chat-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.12.0",
+    "express": "^4.19.0",
+    "graphql": "^16.9.0",
+    "socket.io": "^4.8.0"
+  }
+}
